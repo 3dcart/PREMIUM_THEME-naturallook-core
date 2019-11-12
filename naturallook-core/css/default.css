@@ -998,6 +998,22 @@ section.home-category-footer {
 .hp-slider-cta a {
     min-width: 150px;
 }
+@media(max-width: 991px) {
+    .home-page-content {
+        padding-top: 0;
+    }
+    .homeCarousel {
+        height: auto;
+    }
+    #hp-slides > li {
+        height: 375px;
+        padding-top: 20px;
+        background-attachment: initial;
+    }
+    .homepage-slider {
+        position: static;
+    }
+}
 .revealOnScroll {
     opacity: 0;
 }
