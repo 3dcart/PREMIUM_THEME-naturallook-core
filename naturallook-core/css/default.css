@@ -47,6 +47,12 @@ h1 {
         width: 1200px;
     }
 }
+@media (max-width: 1024px) {
+    #hp-slides > li {
+        background-position: center !important;
+        background-attachment: inherit !important;
+    }
+}
 .form-control {
     color: #000;
     font-family: 'Montserrat', sans-serif;;
